@@ -9,15 +9,15 @@ int main() {
     // change songs 
     Song library[10] = {
         {"Out There", "Neito Han", 257},
-        {"", "", },
-        {"", "", },
-        {"", "", },
-        {"", "", },
-        {"", "", },
-        {"", "", },
-        {"", "", },
-        {"", "", },
-        {"", "", }
+        {"Mugen", "Oguri Cap", 210},
+        {"Be a flower", "Ryokoushoku Shakai", 218},
+        {"Hold You Forever", "David Johnson Kim", 248},
+        {"Pasilyo", "Sunkissed Lola", 276},
+        {"Barricades", "Hiroyuki Sawano", 222},
+        {"Matasaburo", "Yorushika", 231},
+        {"Gunjo", "YOASOBI", 263},
+        {"her (ft.ZVC)", "JVKE", 145},
+        {"A Thousand Years", "John Michael Howell,JVKE,&ZVC", 181}
     };
 
     printf("*** MUSIC PLAYLIST (C - LINKED LIST QUEUE) ***\n\n");
