@@ -17,27 +17,27 @@ int main() {
         {"Matasaburo", "Yorushika", 231},
         {"Gunjo", "YOASOBI", 263},
         {"her (ft.ZVC)", "JVKE", 145},
-        {"A Thousand Years", "John Michael Howell,JVKE,&ZVC", 181}
+        {"A Thousand Years", "John Michael Howell,JVKE,&ZVC", }
     };
 
-    printf("*** MUSIC PLAYLIST (C - LINKED LIST QUEUE) ***\n\n");
+    printf("\n[==~ MUSIC PLAYLIST (C - LINKED LIST QUEUE) ~==]\n\n");
     
-    printf("--- Initial Song Library ---\n");
+    printf("<<< '.'.Initial Song Library .'.'>>>\n");
     for(int i = 0; i < 10; i++) {
         printf("[%d] %s (%s) - %d sec\n", i + 1, library[i].title, library[i].artist, library[i].duration);
     }
-    printf("-----------------------------\n");
+    printf("{{============================}}\n");
 
     int choice, songNum;
 
     while(1) {
-        printf("\n** Playlist Menu **\n");
+        printf("\n{{~== Playlist Menu ==~}}\n");
         printf("1. Add Song to Playlist (Enqueue)\n");
         printf("2. View Current Playlist\n");
         printf("3. Play Next Song (Dequeue)\n");
         printf("4. Show Total Duration\n");
         printf("5. Exit\n");
-        printf("-----------------------------\n");
+        printf("{{============================}}\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
 
